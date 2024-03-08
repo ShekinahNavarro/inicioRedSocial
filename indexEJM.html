@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body background="https://i.pinimg.com/564x/28/4a/8b/284a8b02fd38405bae4c7d6ea097be66.jpg">
@@ -13,12 +14,10 @@
         </div>
         <form class="form" id="register-form">
             <h2>Registro</h2>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email" required>
+            <label for="signup-password">Contraseña:</label>
+            <input type="password" id="signup-password" name="password" required>
             <a href="#" id="signinLink">Iniciar sesión</a>
             <button type="submit" id="register">Registrarse</button>
           </form>
@@ -38,5 +37,6 @@
           </div>
     </div>
     <script type="module" src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
